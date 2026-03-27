@@ -24,3 +24,11 @@ ls -i
 #lists files in the current directory along with their inode numbers, which can be useful for identifying files and understanding file system structure
 pwd 
 #prints the current working directory, confirming that you are in the correct location to run the saludo_bin executable
+ls | grep "saludo" 
+#lists files in the current directory and filters the output to show only files that contain "saludo" in their name, confirming the presence of saludo_bin
+echo "hola mundo" > tests.txt 
+#creates a new file named tests.txt and writes "hola mundo" into it, demonstrating how to create and write to a file in the terminal
+cat tests.txt
+#displays the contents of tests.txt, confirming that the text "hola mundo" was successfully written to the file
+stat test.txt 
+#displays detailed information about the file test.txt, including its size, permissions, and timestamps, which can be useful for understanding file properties and managing files effectively
